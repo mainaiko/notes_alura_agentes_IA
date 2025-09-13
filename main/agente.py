@@ -19,6 +19,5 @@ llm_teste = ChatGoogleGenerativeAI(
     )
 
 #teste do modelo
-resposta_1 = llm_teste.invoke("Quem foi Albert Einstein?")
-print(resposta_1.content)
-
+#resposta_1 = llm_teste.invoke("Quem foi Albert Einstein?")
+#print(resposta_1.content)

@@ -1,0 +1,39 @@
+Classificação de inteções com IA
+
+um agente é um recurso para uma atividade especifica, interpreta e executa.
+a partir de um comando o agente utiliza modelos para interpretar o input do usuario
+
+agente orquestadror em sistemas de multiplos agentes
+
+ferramentas
+MCP A2A 
+
+* bibliotecas : langchain -> langchain-google-genai -> google-generativeai
+
+para acessar o modelo do google é necessario uma camada de autenticação uma "chave"
+
+aistudio.google.com
+
+import do chatgooglegenerativeai
+
+contexto de negocio na criação do agente
+agente de chamados de rh
+duvidas que possam ser padronizadas um agente consegue responder
+
+rag = retrieval-augmented generation -> usar arquivos, pdfs, excel para que o agente use nao o conhecimento geral mas o conhecimento
+especifico da empresa
+
+
+                                pedido
+
+                                agente
+
+                resposta       abrir um         pedir mais        
+                usando          ticket          informações
+                rag
+
+criação do prompt do sistema explica para o agente o que ele é e o que ele faz
+
+estudar engenharia de prompts
+
+usar few-shots, alguns exemplos para o modelo se adaptar melhor
