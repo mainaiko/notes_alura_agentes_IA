@@ -37,3 +37,7 @@ criação do prompt do sistema explica para o agente o que ele é e o que ele fa
 estudar engenharia de prompts
 
 usar few-shots, alguns exemplos para o modelo se adaptar melhor
+
+é possivel isntanciar diversas variaveis de llm
+
+langchain vem de cadeias de processos para o agente executar o desejado
