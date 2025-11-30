@@ -1,15 +1,14 @@
 # imports necessarios
 from pydantic import BaseModel, Field
 from typing import Literal, List, Dict
-# imports do langchain, usado para estruturar as mensagens enviadas ao modelo, mensagens do sistema
-# e do usuario
+# imports do langchain, usado para estruturar as mensagens enviadas ao modelo, mensagens do sistema e do usuario
 from langchain_core.messages import SystemMessage, HumanMessage
 
 from agente import llm
 from promt import TRIAGEM_PROMPT
 
 #classe para definir a estrutura do JSON de saída
-class TriagemOutput(BaseModel):
+class TriagemOutput(BaseModel): #estudar o basemodel melhor
     decisao: Literal["AUTO_RESOLVER", "PEDIR_INFO", "ABRIR_CHAMADO"]
     urgencia: Literal["BAIXA", "MEDIA", "ALTA"]
     campos_faltantes: List[str] = Field(default_factory=list)

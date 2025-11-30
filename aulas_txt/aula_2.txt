@@ -1,0 +1,24 @@
+rag sao arquivos especificos que posso colocar o modelo para usar como base de conhecimento
+para as pergutas
+
+usar informações para gerar uma resposta precisa
+
+bibliotecas pora suavisar a complexidade do rag
+instal -> langchain_community faiss-cpu langchain-text-splitters pymupdf
+
+faiss-cpu sera a base de dados vertorial 
+
+carregando documentos e lendo eles
+
+devido a politica de preços o rag se torna totalmente viavel
+é possivel orientar o modelo a trabalhar apenas com partes do documento dependendo do tamnho do proprio
+
+semantica = token
+
+vetores
+
+embedings trasforma texto em vetores, cada chunk é convertido para uma lista de numeros que significa seu significado semantico
+textos com significados parecidos terao vetores numericamente proximos
+
+
+
